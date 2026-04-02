@@ -4,9 +4,11 @@ WORKDIR /app
 
 COPY . .
 
-# ✅ ADD THIS LINE (important fix)
+# Give permission to mvnw
 RUN chmod +x mvnw
 
+# Build the project
 RUN ./mvnw clean package -DskipTests
 
-CMD ["java", "-jar", "target/*.jar"]
+# Run the generated jar
+CMD ["java", "-jar", "target/Asset_Management-0.0.1-SNAPSHOT.jar"]
