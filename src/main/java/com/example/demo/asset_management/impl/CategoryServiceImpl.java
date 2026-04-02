@@ -1,4 +1,4 @@
-package com.example.demo.asset_management.service.impl;
+package com.example.demo.asset_management.impl;
 
 import com.example.demo.asset_management.dto.CategoryDto;
 import com.example.demo.asset_management.entity.Category;
