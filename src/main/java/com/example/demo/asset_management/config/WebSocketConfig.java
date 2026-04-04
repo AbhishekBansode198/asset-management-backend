@@ -17,7 +17,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint("/ws")
-                .setAllowedOrigins("https://69ce4ebf0df3053e3f6ab068--asset1xyz.netlify.app/")
+                .setAllowedOrigins("https://asset1xyz.netlify.app/")
                 .withSockJS();
     }
 }
