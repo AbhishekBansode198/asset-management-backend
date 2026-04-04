@@ -18,7 +18,8 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         config.setAllowedOrigins(List.of(
-            "https://69ce4ebf0df3053e3f6ab068--asset1xyz.netlify.app"
+            "https://asset1xyz.netlify.app"
+        		
         )); // ❌ NO trailing /
 
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
