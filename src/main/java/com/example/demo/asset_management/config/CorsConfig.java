@@ -18,7 +18,7 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         config.setAllowedOrigins(List.of(
-            "https://asset1xyz.netlify.app"
+            "https://assetmgsystem.netlify.app"
         		
         )); // ❌ NO trailing /
 
